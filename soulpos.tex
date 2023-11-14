@@ -50,15 +50,13 @@ negatively.\footnote{Actually, two files are created, with extensions
 \texttt{upa} and \texttt{upb}.}
 
 Internally \textsf{soul} knows to some point where a break happens,
-and this information may be used to set diferent styles depending on
+and this information may be used to set different styles depending on
 the position.
 
 This version (1.0) does almost no checking (e.g., to warn about the
 need for a new run), which is left for a later release.
 
-The package \textsf{soulutf8} is loaded if it (or \textsf{soul}) has 
-not been loaded before (note the UTF-8 encoding is not necessary for
-\textsf{soulutf8} to work).
+The package \textsf{soul} is loaded if it has not been loaded before.
 
 \section{Usage}
 
@@ -72,7 +70,7 @@ Defines an underline as \verb|<commands>|, which is placed in a box of
 width zero with either \verb|\llap| or \verb|\rlap|, as explained
 below.  Typically, \verb|<commands>| will contain a rule or leaders.
 If the text spans more than one line, then there will be several
-chunks to be undelined (one per line).
+chunks to be underlined (one per line).
 
 You can use the following macros in \verb|<commands>|.
 
